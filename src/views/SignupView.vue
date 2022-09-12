@@ -4,15 +4,15 @@
     <div class="
         min-h-screen
         bg-gradient-to-tl
-        from-green-400
-        to-indigo-900
+        from-blue-400
+        to-blue-900
         w-full
         py-16
         px-4
       ">
       <div class="flex flex-col items-center justify-center">
         <span class="text-white pt-32">KiddyFam</span>
-        <div class="bg-white shadow rounded lg:w-1/3 md:w-1/2 w-full p-10 mt-16">
+        <div class="bg-white shadow rounded xl:w-2/5 lg:w-3/5 md:w-4/5 w-full p-10 mt-16">
           <p tabindex="0" role="heading" aria-label="Sign up" class="text-2xl font-extrabold leading-6 text-gray-800">
             Sign up
           </p>
@@ -130,14 +130,15 @@
               Email
             </label>
             <input aria-label="enter email adress" role="input" type="email" class="
-                bg-gray-200
-                border
+                bg-white
+                border-2
                 rounded
-                focus:outline-none
+                focus:outline-blue-600
                 text-xs
                 font-medium
                 leading-none
                 text-gray-800
+                shadow-sm
                 py-3
                 w-full
                 pl-3
@@ -150,14 +151,15 @@
             </label>
             <div class="relative flex items-center justify-center">
               <input aria-label="enter Password" role="input" type="password" class="
-                  bg-gray-200
-                  border
+                  bg-white
+                  border-2
                   rounded
-                  focus:outline-none
+                  focus:outline-blue-600
                   text-xs
                   font-medium
                   leading-none
                   text-gray-800
+                  shadow-sm
                   py-3
                   w-full
                   pl-3
@@ -174,13 +176,13 @@
           </div>
 
           <div class="pt-5">
-            <div class="grid grid-cols-2 gap-8">
-              <div class="relative">
+            <div class="grid grid-rows-1 xl:grid-cols-6 gap-8">
+              <div class="relative col-span-6 xl:col-span-4">
                 <input class="hidden group peer" type="radio" name="shippingOption" value="standard_alt"
                   id="standard_alt" />
 
                 <label
-                  class="block p-4 text-sm font-small transition-colors border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500"
+                  class="block p-4 text-sm xl:text-xs font-medium transition-colors border-2 rounded shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-blue-500"
                   for="standard_alt">
                   <span> Oyun Ablasıyım/Abisiyim </span>
 
@@ -197,12 +199,12 @@
                 </svg>
               </div>
 
-              <div class="relative">
+              <div class="relative col-span-6 xl:col-span-2">
                 <input class="hidden group peer" type="radio" name="shippingOption" value="next_day_alt"
                   id="next_day_alt" />
 
                 <label
-                  class="block p-4 text-sm font-small transition-colors border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500"
+                  class="block p-4  text-sm xl:text-xs font-medium transition-colors border-2 rounded shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50  peer-checked:ring-blue-500"
                   for="next_day_alt">
                   <span> Ebeveynim </span>
 
@@ -221,6 +223,25 @@
             </div>
 
           </div>
+          <div class="grid grid-cols-5 col pt-5">
+            <p class="col-span-5 font-medium"> <span class="text-blue-500">*</span> By clicking the "Create My Account" button, you are creating a Koikidz account, and you agree to Koikidz <a class="text-lg underline text-blue-500" href="/">Terms of Use</a> and <a class="text-lg underline text-blue-500" href="/">Privacy Policy</a></p>
+          </div>
+          <!-- <div class="flex">
+  <div class="pt-5 font-sans">
+    <div class="">
+      <input class="appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio"  id="flexRadioDefault1">
+      <label class="inline-block text-gray-800" for="flexRadioDefault1">
+        Gizlilik kurallarini kabul ediyorum.
+      </label>
+    </div>
+    <div class="">
+      <input class="appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio"  id="flexRadioDefault2">
+      <label class="inline-block text-gray-800" for="flexRadioDefault2">
+        Acik riza metnini kabul ediyorum.
+      </label>
+    </div>
+  </div>
+</div> -->
 
           <div class="mt-8">
             <router-link to="/signup/mother">
@@ -231,10 +252,10 @@
                   leading-none
                   text-white
                   focus:outline-none
-                  bg-orange-500
+                  bg-blue-500
                   border
                   rounded
-                  hover:bg-orange-600
+                  hover:bg-blue-600
                   py-4
                   w-full
                 ">

@@ -9,7 +9,7 @@
     <br />
     <br />
 
-    <div class="flex flex-wrap">
+    <div class="flex overflow-auto">
       <div class="p-2">
         <BabySitterCard />
       </div>
@@ -23,8 +23,12 @@
         <BabySitterCard />
       </div>
       <div class="p-2">
-        <LoginBlaBla />
+        <BabySitterCard />
       </div>
+      <div class="p-2">
+        <BabySitterCard />
+      </div>
+      
     </div>
 
   </div>
@@ -32,9 +36,9 @@
 
 <script>
 import BabySitterCard from "../components/BabySitterCard.vue"
-import LoginBlaBla from "@/components/LoginBlaBla.vue";
+
 export default {
   name: "HomeView",
-  components: { BabySitterCard, LoginBlaBla },
+  components: { BabySitterCard },
 };
 </script>
