@@ -4,30 +4,25 @@
     <router-link to="/login">Login</router-link> |
     <router-link to="/signup">Signup</router-link> |
     <router-link to="/signup/mother">Mother Signup</router-link>
-
-    <br />
-    <br />
-    <br />
-
-    <div class="flex overflow-auto">
+    <div class="grid  grid-cols-1">
       <div class="p-2">
         <BabySitterCard />
       </div>
-      <div class="p-2">
-        <BabySitterCard />
+      <!-- <div class="p-2">
+        <SisterDetails />
       </div>
       <div class="p-2">
-        <BabySitterCard />
+        <SisterDetails />
       </div>
       <div class="p-2">
-        <BabySitterCard />
+        <SisterDetails />
       </div>
       <div class="p-2">
-        <BabySitterCard />
+        <SisterDetails />
       </div>
       <div class="p-2">
-        <BabySitterCard />
-      </div>
+        <SisterDetails />
+      </div> -->
       
     </div>
 
@@ -35,10 +30,12 @@
 </template>
 
 <script>
-import BabySitterCard from "../components/BabySitterCard.vue"
+// import BabySitterCard from "../components/BabySitterCard.vue"
+// import SisterDetails from "@/components/SisterDetails.vue";
+import BabySitterCard from "@/components/BabySitterCard.vue";
 
 export default {
   name: "HomeView",
-  components: { BabySitterCard },
+  components: {  BabySitterCard },
 };
 </script>

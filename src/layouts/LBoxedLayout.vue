@@ -693,7 +693,7 @@
         <div class="container px-6 mx-auto">
             <!-- Remove class [ h-64 ] when adding a card block -->
             <div
-                class="rounded shadow relative bg-white z-10 -mt-8 mb-8 w-full h-screen max-h-[62vh] md:max-h-[72vh] lg:max-h-[75vh]">
+                class="rounded shadow overflow-auto relative bg-white z-10  mb-8 w-full h-11/12 max-h-[62vh] md:max-h-[72vh] lg:max-h-[75vh]">
                 <!-- Place your content here -->
                 <router-view />
             </div>

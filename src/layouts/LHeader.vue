@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between h-16">
         <div class="flex-1 md:flex md:items-center md:gap-12">
           <a class="block text-teal-600" href="/">
-            <span class="sr-only">Home</span>
+            <span class="sr-only"></span>
             <svg
               class="h-8"
               viewBox="0 0 28 24"

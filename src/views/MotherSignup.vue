@@ -3,30 +3,30 @@
   <body class="min-h-screen">
     <div class="
         min-h-screen
-        bg-gradient-to-tl
-        from-green-400
-        to-indigo-900
+       
+        to-teal-100
+        bg-[url('https://images.pexels.com/photos/2781814/pexels-photo-2781814.jpeg?auto=compress&cs=tinysrgb&w=1600')]
         w-full
         py-16
         px-4
       ">
       <div class="flex flex-col items-center justify-center">
         <span class="text-white pt-32">KiddyFam</span>
-        <div class="bg-white shadow rounded lg:w-1/3 md:w-1/2 w-full p-10 mt-16">
-          <p tabindex="0" role="heading" aria-label="Sign up" class="text-2xl font-extrabold leading-6 text-gray-800">
-            Sign up
+        <div class="bg-gradient-to-b from-cyan-400  to-sky-700 shadow rounded lg:w-2/5 md:w-1/2 w-full p-10 mt-16">
+          <p tabindex="0" role="heading" aria-label="Sign up" class="text-2xl font-extrabold leading-6 text-white">
+            Kayıt Ol
           </p>
-          <p class="text-sm mt-4 font-medium leading-none text-gray-500">
-            Back to signup?
+          <p class="text-sm mt-4 font-medium leading-none text-white">
+            Hesabınız zaten var  mı?
             <span tabindex="0" role="link" aria-label="Sign up here" class="
                 text-sm
                 font-medium
                 leading-none
                 underline
-                text-gray-800
+                text-white-600
                 cursor-pointer
               ">
-              <router-link to="/signup">Click here</router-link>
+              <router-link to="/signup">Giriş Yap</router-link>
             </span>
           </p>
 
@@ -124,13 +124,31 @@
             </div>
           </div>
           <!-- Social account login END -->
-
           <div class="pt-5">
-            <label class="text-sm font-medium leading-none text-gray-800">
-              Telefon
+            <label class="text-md font-semibold leading-none text-white">
+              İsim
             </label>
             <input aria-label="enter phone number" role="input" type="number" class="
-                bg-gray-200
+                bg-white
+                border
+                rounded
+                focus:outline-bg-yellow-400
+                text-xs
+                font-medium
+                leading-none
+                text-gray-800
+                py-3
+                w-full
+                pl-3
+                mt-2
+              " />
+          </div>
+          <div class="pt-5">
+            <label class="text-md font-semibold leading-none text-white">
+              Soyisim
+            </label>
+            <input aria-label="enter phone number" role="input" type="number" class="
+                bg-white
                 border
                 rounded
                 focus:outline-none
@@ -146,11 +164,31 @@
           </div>
 
           <div class="pt-5">
-            <label class="text-sm font-medium leading-none text-gray-800">
+            <label class="text-md font-semibold leading-none text-white">
+              Telefon
+            </label>
+            <input aria-label="enter phone number" role="input" type="number" class="
+                bg-white
+                border
+                rounded
+                focus:outline-none
+                text-xs
+                font-medium
+                leading-none
+                text-gray-800
+                py-3
+                w-full
+                pl-3
+                mt-2
+              " />
+          </div>
+
+          <div class="pt-5">
+            <label class="text-md font-semibold leading-none text-white">
               Adres
             </label>
             <textarea aria-label="enter address" role="input" type="textarea" class="
-                bg-gray-200
+                bg-white
                 border
                 rounded
                 focus:outline-none
@@ -167,7 +205,7 @@
 
           <div class="flex flex-row justify-between">
             <div class="pt-5 pr-1 w-full">
-              <label for="cities" class="text-sm font-medium leading-none text-gray-800">Il</label>
+              <label for="cities" class="text-md font-semibold leading-none text-white">Şehir</label>
               <select id="cities" disabled
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 <option selected>Istanbul</option>
@@ -177,9 +215,9 @@
             </div>
 
             <div class="pt-5 pl-1 w-full">
-              <label for="states" class="text-sm font-medium leading-none text-gray-800">Ilce</label>
+              <label for="states" class="text-md font-semibold leading-none text-white">İlçe</label>
               <select id="states"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="bg-white border border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 <option value="Adalar" selected>Adalar</option>
                 <option value="Bağcılar">Bağcılar</option>
                 <option value="Bahçelievler">Bahçelievler</option>
@@ -216,11 +254,11 @@
 
 
           <div class="pt-5">
-            <label class="text-sm font-medium leading-none text-gray-800">
+            <label class="text-md font-semibold leading-none text-white">
               Posta Kodu
             </label>
             <input aria-label="enter postcode" role="input" type="text" class="
-                bg-gray-200
+                bg-white
                 border
                 rounded
                 focus:outline-none
@@ -239,19 +277,19 @@
             <router-link to="/home">
               <button role="button" aria-label="save informations" class="
                   focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
-                  text-sm
-                  font-semibold
+                  text-md
+                  font-bold
                   leading-none
-                  text-white
+                  text-blue-800
                   focus:outline-none
-                  bg-orange-500
+                  bg-white
                   border
                   rounded
                   hover:bg-orange-600
                   py-4
                   w-full
                 ">
-                Save
+                Kayıt Ol
               </button>
             </router-link>
           </div>
