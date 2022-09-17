@@ -8,22 +8,10 @@
       <div class="p-2">
         <BabySitterCard />
       </div>
-      <!-- <div class="p-2">
-        <SisterDetails />
-      </div>
       <div class="p-2">
         <SisterDetails />
       </div>
-      <div class="p-2">
-        <SisterDetails />
-      </div>
-      <div class="p-2">
-        <SisterDetails />
-      </div>
-      <div class="p-2">
-        <SisterDetails />
-      </div> -->
-      
+
     </div>
 
   </div>
@@ -31,11 +19,11 @@
 
 <script>
 // import BabySitterCard from "../components/BabySitterCard.vue"
-// import SisterDetails from "@/components/SisterDetails.vue";
+import SisterDetails from "@/components/SisterDetails.vue";
 import BabySitterCard from "@/components/BabySitterCard.vue";
 
 export default {
   name: "HomeView",
-  components: {  BabySitterCard },
+  components: { BabySitterCard, SisterDetails },
 };
 </script>

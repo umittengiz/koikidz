@@ -1,8 +1,11 @@
 <template>
     <div class="w-full h-full flex justify-center">
-        <a href="#" class="flex flex-col w-1/4 items-center justify-center p-2 rounded-lg border-2 border-blue-400 shadow-md shadow-indigo-100">
-            <img alt="123 Wallaby Avenue, Park Road" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+        <a href="#"
+            class="flex flex-col w-1/4 items-center justify-center p-2 rounded-lg border-2 border-blue-400 shadow-md shadow-indigo-100">
+            <img alt="123 Wallaby Avenue, Park Road" src="https://www.bakiciburada.com/bakici/foto/197254-1.jpg"
                 class="object-cover h-2/4 w-3/6 rounded-full shadow-lg border-blue-500 border" />
+
+            <!-- src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" -->
 
             <div class="flex flex-col items-center  justify-center mt-3 ">
                 <dl>
@@ -22,7 +25,7 @@
                         </dt> -->
 
                         <dd class="font-medium text-blue-400">
-                            Yesim Okan
+                            Yeşim Okyay
                         </dd>
                     </div>
                 </dl>
@@ -41,7 +44,7 @@
                             </dt>
 
                             <dd class="font-medium text-blue-500">
-                                17 
+                                17
                             </dd>
                         </div>
                     </div>
@@ -59,7 +62,7 @@
                             </dt>
 
                             <dd class="font-medium text-blue-500">
-                                8/10
+                                8.4 / 10
                             </dd>
                         </div>
                     </div>
@@ -80,7 +83,7 @@
                                 4
                             </dd>
                         </div>
-                        
+
                     </div>
                 </dl>
                 <dl class="flex items-center justify-center w-full border-b p-5 space-x-8 text-xs">
@@ -97,7 +100,7 @@
                             </dt>
 
                             <dd class="font-medium text-blue-500">
-                                32 
+                                32
                             </dd>
                         </div>
                     </div>
@@ -120,7 +123,7 @@
                         </div>
                     </div>
 
-                
+
                 </dl>
             </div>
         </a>
