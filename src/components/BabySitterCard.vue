@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-full flex justify-center">
         <a href="#"
-            class="flex flex-col w-1/4 items-center justify-center p-2 rounded-lg border-2 border-blue-400 shadow-md shadow-indigo-100">
+            class="flex flex-col w-2/8 items-center justify-center rounded-lg border-2 border-blue-400 shadow-md shadow-indigo-100">
             <img alt="123 Wallaby Avenue, Park Road" src="https://www.bakiciburada.com/bakici/foto/197254-1.jpg"
                 class="object-cover h-2/4 w-3/6 rounded-full shadow-lg border-blue-500 border" />
 
