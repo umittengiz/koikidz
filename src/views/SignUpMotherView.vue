@@ -17,7 +17,7 @@
             Kayıt Ol
           </p>
           <p class="text-sm mt-4 font-medium leading-none text-white">
-            Hesabınız zaten var  mı?
+            Hesabınız zaten var mı?
             <span tabindex="0" role="link" aria-label="Sign up here" class="
                 text-sm
                 font-medium
@@ -274,7 +274,7 @@
           </div>
 
           <div class="mt-8">
-            <router-link to="/home">
+            <router-link to="/signup/kids/add">
               <button role="button" aria-label="save informations" class="
                   focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
                   text-md

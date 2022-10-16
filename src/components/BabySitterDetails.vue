@@ -207,7 +207,7 @@ export default {
           name: "Yeşim Okyay",
           age: 27,
           city: "Yalova",
-          profileImageUrl: "https://www.bakiciburada.com/bakici/foto/197254-1.jpg",
+          profileImageUrl: "https://cdn.lorem.space/images/face/.cache/400x400/jackson-schaal-AR9mvykzSOA-unsplash.jpg",
           email: "yesimokyay@friendmail.com",
           phone: "0(552) 480 21 45",
           rank: "8.4 / 10",

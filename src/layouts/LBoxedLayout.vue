@@ -1,7 +1,7 @@
 <template>
     <div class="bg-gray-200 pb-10">
         <!-- Navigation starts -->
-        <nav class="w-full mx-auto bg-white shadow relative z-20">
+        <nav class="hidden w-full mx-auto bg-white shadow relative z-20">
             <div class="
           justify-between
           container

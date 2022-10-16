@@ -20,14 +20,62 @@ const routes = [
     path: "/signup",
     name: "signup",
     component: () =>
-      import(/* webpackChunkName: "signup" */ "../views/SignupView.vue"),
+      import(/* webpackChunkName: "signup" */ "../views/SignUpView.vue"),
   },
   {
     path: "/signup/mother",
-    name: "mother-signup",
+    name: "signup-mother",
     component: () =>
       import(
-        /* webpackChunkName: "mother-signup" */ "../views/MotherSignup.vue"
+        /* webpackChunkName: "signup-mother" */ "../views/SignUpMotherView.vue"
+      ),
+  },
+  {
+    path: "/signup/kids/add",
+    name: "signup-kids-add",
+    component: () =>
+      import(
+        /* webpackChunkName: "signup-kids-add" */ "../views/SignUpKidsAddView.vue"
+      ),
+  },
+  {
+    path: "/signup/questions",
+    name: "signup-questions",
+    component: () =>
+      import(
+        /* webpackChunkName: "signup-questions" */ "../views/SignUpQuestionsView.vue"
+      ),
+  },
+  {
+    path: "/babysitters",
+    name: "babysitters",
+    component: () =>
+      import(
+        /* webpackChunkName: "babysitters" */ "../views/BabySittersView.vue"
+      ),
+  },
+  {
+    path: "/babysitters/view",
+    name: "babysitter",
+    component: () =>
+      import(
+        /* webpackChunkName: "babysitter" */ "../views/BabySitterView.vue"
+      ),
+  },
+  {
+    path: "/checkout",
+    name: "checkout",
+    component: () =>
+      import(
+        /* webpackChunkName: "checkout" */ "../views/CheckoutPaymentView.vue"
+      ),
+  },
+  {
+    path: "/checkout/success",
+    name: "checkout-success",
+    component: () =>
+      import(
+        /* webpackChunkName: "checkout-success" */ "../views/CheckoutSuccessView.vue"
       ),
   },
 ];
