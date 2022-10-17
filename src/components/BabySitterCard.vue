@@ -5,7 +5,7 @@
       class="flex flex-col pt-3 px-3 items-center justify-center rounded-lg border-2 border-blue-400 shadow-md shadow-indigo-100">
       <img alt="123 Wallaby Avenue, Park Road"
         src="https://cdn.lorem.space/images/face/.cache/400x400/jackson-schaal-AR9mvykzSOA-unsplash.jpg"
-        class="object-cover w-full rounded-lg shadow-sm border-blue-500 border" />
+        class="object-cover w-4/6 rounded-full shadow-sm border-blue-500 border" />
 
       <!-- src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" -->
 

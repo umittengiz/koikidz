@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-8">
+  <div class="grid grid-cols-8 m-10">
     <div class="grid col-span-2">
       <!--
   This component uses @tailwindcss/forms
@@ -13,7 +13,7 @@
 
 
     </div>
-    <div class="grid grid-cols-2  col-span-6 gap-6">
+    <div class="grid grid-cols-2 col-span-6 gap-6">
     <BabySitterCard />
     <BabySitterCard />
     <BabySitterCard />
@@ -21,6 +21,19 @@
     <BabySitterCard />
     <BabySitterCard />
     <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    <BabySitterCard />
+    
   </div>
   </div>
   

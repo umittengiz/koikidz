@@ -1,7 +1,8 @@
 <template>
-    <div class="flex justify-center">
+    <div class="flex justify-center sticky flex-col top-0 self-start">
+    
         <form
-  class="relative mx-auto divide-y divide-gray-100 overflow-auto rounded-lg border border-gray-100 bg-white shadow-lg"
+  class=" overflow-auto mx-auto divide-y divide-gray-100  rounded-lg border border-gray-100 shadow-lg"
 >
   <header class="px-6 py-4" aria-label="Filter University Courses">
     <strong class="text-lg font-medium text-gray-900">
@@ -13,7 +14,7 @@
     </p>
   </header>
 
-  <div class="flow-root h-auto overflow-y-auto px-6">
+  <div class="flow-root h-96 overflow-y-auto px-6">
     <div class="divide-y divide-gray-100">
       <div class="py-8">
         <fieldset>
@@ -273,18 +274,19 @@
     </div>
   </div>
 
-  <div class="flex items-center justify-between px-6 py-4">
-    <input
+  <div class="flex items-center justify-around py-4">
+    <button
+      class="rounded-lg p-3 border-2 border-amber-600 text-sm font-medium text-amber-600"
       type="reset"
-      value="Clear all"
-      class="rounded-lg bg-gray-50 px-5 py-3 text-sm font-medium text-gray-700"
-    />
+    >
+      Tumunu Temizle
+    </button>
 
     <button
-      class="rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
+      class="rounded-lg bg-amber-600 p-3 text-sm font-medium text-white"
       type="submit"
     >
-      Show 300+ results
+      Sonuclari goster
     </button>
   </div>
 </form>

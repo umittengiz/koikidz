@@ -1,20 +1,21 @@
 <template>
   <div>
-    TEBRIKLER! ABLA ALDINIZ!
-
-    YÖNLENDİRİLİYORSUNUZ...
+    <SuccessPage/>
   </div>
 </template>
 
 <script>
 import router from '@/router';
+import SuccessPage from "@/components/SuccessPage.vue"
+
 
 export default {
-  mounted() {
-    setTimeout(() => {
-      router.push("/")
-    }, 3000)
-  }
+    mounted() {
+        setTimeout(() => {
+            router.push("/");
+        }, 5000);
+    },
+    components: { SuccessPage }
 }
 </script>
 

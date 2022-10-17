@@ -2,7 +2,7 @@
   <div>
     <SignUpQuestion />
 
-    <div class="mt-8">
+    <div class="mt-8 flex justify-end">
       <router-link to="/">
         <button role="button" aria-label="login my account" class="
                   focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
