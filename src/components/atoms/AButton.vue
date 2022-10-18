@@ -2,14 +2,9 @@
   <div>
     <router-link :to="to">
       <button role="button" aria-label="login my account" class="
-                
                 text-sm
                 font-semibold
                 leading-none
-                text-black
-                
-                
-                
                 rounded-full
                 w-full
                 py-4 px-4
