@@ -17,19 +17,7 @@
       <!-- <div class="p-2">
         <CheckoutPayment />
       </div> -->
-      <div class="p-2">
-        <!-- <BabySitterDetails /> -->
-        <!-- <BabySitterCard /> -->
-        <div class="flex flex-row pb-10">
-          <AButton to="/babysitters" buttonText="Abla Çağır" />
-          <AButton to="/" buttonText="Çocuklarım" />
-          <AButton to="/" buttonText="Adreslerim" />
-          <AButton to="/" buttonText="Profil" />
-          <AButton to="/" buttonText="Cüzdan" />
-        </div>
-
-        <DataTable class="flex justify-center" />
-      </div>
+     <HomeMother />
     </div>
   </div>
 </template>
@@ -43,11 +31,13 @@
 // import BabySitterCard from "@/components/BabySitterCard.vue";
 // import BabySitterDetails from "@/components/BabySitterDetails.vue";
 
-import DataTable from "@/components/DataTable.vue";
-import AButton from "@/components/atoms/AButton.vue";
+// import DataTable from "@/components/DataTable.vue";
+// import AButton from "@/components/atoms/AButton.vue";
+import HomeMother from "@/components/HomeMother.vue"
+
 
 export default {
   name: "HomeView",
-  components: { DataTable, AButton },
+  components: {  HomeMother },
 };
 </script>

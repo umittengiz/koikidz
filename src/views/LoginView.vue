@@ -10,9 +10,9 @@
         md:block
         min-h-screen
         bg-gradient-to-tl
-        from-yellow-400
-        to-orange-500
-        to-indigo-900
+        from-blue-100
+        
+        to-sky-900
         w-full
         py-16
         px-4
@@ -181,16 +181,16 @@
           <div class="mt-8">
             <router-link to="/">
               <button role="button" aria-label="login my account" class="
-                  focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
+                  focus:ring-2 focus:ring-offset-2 focus:ring-blue-500
                   text-sm
                   font-semibold
                   leading-none
                   text-white
                   focus:outline-none
-                  bg-orange-500
+                  bg-blue-500
                   border
                   rounded
-                  hover:bg-orange-600
+                  hover:bg-blue-600
                   py-4
                   w-full
                 ">

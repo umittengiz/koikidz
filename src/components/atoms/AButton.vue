@@ -1,18 +1,18 @@
 <template>
-  <div class="mt-8">
+  <div>
     <router-link :to="to">
       <button role="button" aria-label="login my account" class="
-                focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
+                
                 text-sm
                 font-semibold
                 leading-none
-                text-white
-                focus:outline-none
-                bg-orange-500
-                border
-                rounded
-                hover:bg-orange-600
-                py-4 px-3
+                text-black
+                
+                
+                
+                rounded-full
+                w-full
+                py-4 px-4
               ">
         {{ buttonText }}
       </button>

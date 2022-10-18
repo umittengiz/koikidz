@@ -177,7 +177,7 @@
 
           <div class="pt-5">
             <div class="grid grid-rows-1 xl:grid-cols-6 gap-8">
-              <div class="relative col-span-6 xl:col-span-4">
+              <div class="relative col-span-6 xl:col-span-3">
                 <input class="hidden group peer" type="radio" name="shippingOption" value="standard_alt"
                   id="standard_alt" />
 
@@ -199,7 +199,7 @@
                 </svg>
               </div>
 
-              <div class="relative col-span-6 xl:col-span-2">
+              <div class="relative col-span-6 xl:col-span-3">
                 <input class="hidden group peer" type="radio" name="shippingOption" value="next_day_alt"
                   id="next_day_alt" />
 

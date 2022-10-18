@@ -272,6 +272,67 @@
                 mt-2
               " />
           </div>
+          <div class="mt-3 ">
+            <h1 class="text-white mb-3">Evinizde herhangi bir güvenlik kamerası var mı?</h1>
+            <div class="mb-3 text-blue-900">
+          <input class="peer hidden" type="radio" name="shippingOption" id="next_day1" />
+
+          <label
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            for="next_day1">
+            <span>Evet güvenlik kameram var.</span>
+          </label>
+        </div>
+        <div class="mb-3 text-blue-900">
+          <input class="peer hidden" type="radio" name="shippingOption" id="next_day" />
+
+          <label
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            for="next_day">
+            <span>Hayır evimde güvenlik kameram yok.</span>
+          </label>
+        </div>
+          </div>
+          <div class="mt-3 ">
+            <h1 class="text-white mb-3">Evinizde herhangi bir evcil hayvanınız var mı?</h1>
+            <div class="mb-3">
+          <input class="peer hidden" type="checkbox" name="checkboxed" id="next_day3" />
+
+          <label
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            for="next_day3">
+            <span>Kuş</span>
+          </label>
+        </div>
+        <div class="mb-3">
+          <input class="peer hidden" type="checkbox" name="checkboxed" id="next_day4" />
+
+          <label
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            for="next_day4">
+            <span>Köpek</span>
+          </label>
+        </div>
+        <div class="mb-3">
+          <input class="peer hidden" type="checkbox" name="checkboxed" id="next_day5" />
+
+          <label
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            for="next_day5">
+            <span>Kedi</span>
+          </label>
+        </div>
+     
+        <div>
+          <input class="peer hidden" type="checkbox" name="checkboxed" id="next_day6" />
+
+          <label
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            for="next_day6">
+            <span>Hayır evimde evcil hayvanım yok.</span>
+          </label>
+        </div>
+          </div>
 
           <div class="mt-8">
             <router-link to="/signup/kids/add">

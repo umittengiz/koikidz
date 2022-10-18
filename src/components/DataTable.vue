@@ -9,7 +9,7 @@
 -->
 
     <div class="overflow-hidden overflow-x-auto rounded-lg border border-gray-200">
-        <table class="w-2/3 divide-y divide-gray-200 text-sm">
+        <table class="w-full divide-y divide-gray-200 text-sm">
             <thead class="bg-gray-100">
                 <tr>
                     <th class="hidden sticky inset-y-0 left-0 bg-gray-100 px-4 py-2 text-left">
@@ -31,7 +31,7 @@
                     </th>
                     <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
                         <div class="flex items-center gap-2">
-                            Name
+                            İsim Soyisim
 
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -55,7 +55,7 @@
                     </th>
                     <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
                         <div class="flex items-center gap-2">
-                            Amount
+                            Ücret
 
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -66,12 +66,52 @@
                         </div>
                     </th>
                     <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
-                        Status
+                        Durum
                     </th>
                 </tr>
             </thead>
 
             <tbody class="divide-y divide-gray-200">
+                <tr>
+                    <td class=" hidden sticky inset-y-0 left-0 bg-white px-4 py-2">
+                        <label class="sr-only" for="Row1">Row 1</label>
+
+                        <input class="h-5 w-5 rounded border-gray-200" type="checkbox" id="Row1" />
+                    </td>
+                    <td class="hidden whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        #00001
+                    </td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">
+                        Yeşim Okyay
+                    </td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">yesimokyay@friendmail.com</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">₺150</td>
+                    <td class="whitespace-nowrap px-4 py-2">
+                        <strong class="rounded bg-green-100 px-3 py-1.5 text-xs font-medium text-green-700">
+                            Kabul Etti
+                        </strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=" hidden sticky inset-y-0 left-0 bg-white px-4 py-2">
+                        <label class="sr-only" for="Row1">Row 1</label>
+
+                        <input class="h-5 w-5 rounded border-gray-200" type="checkbox" id="Row1" />
+                    </td>
+                    <td class="hidden whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        #00001
+                    </td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">
+                        Yeşim Okyay
+                    </td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">yesimokyay@friendmail.com</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">₺150</td>
+                    <td class="whitespace-nowrap px-4 py-2">
+                        <strong class="rounded bg-green-100 px-3 py-1.5 text-xs font-medium text-green-700">
+                            Kabul Etti
+                        </strong>
+                    </td>
+                </tr>
                 <tr>
                     <td class=" hidden sticky inset-y-0 left-0 bg-white px-4 py-2">
                         <label class="sr-only" for="Row1">Row 1</label>
