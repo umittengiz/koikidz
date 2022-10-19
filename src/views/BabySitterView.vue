@@ -1,7 +1,7 @@
 <template>
   <div>
     <BabySitterDetails />
-    <AButton style="float:right" to="/checkout" buttonText="Sipariş Ver" />
+    <AButton class="text-white bg-orange-500" style="float:right" to="/checkout" buttonText="Sipariş Ver" />
   </div>
 </template>
 

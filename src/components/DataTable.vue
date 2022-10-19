@@ -31,7 +31,7 @@
                     </th>
                     <th class="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
                         <div class="flex items-center gap-2">
-                            İsim Soyisim
+                            Ad Soyad
 
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700" viewBox="0 0 20 20"
                                 fill="currentColor">
