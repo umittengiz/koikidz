@@ -17,7 +17,8 @@
       <!-- <div class="p-2">
         <CheckoutPayment />
       </div> -->
-     <HomeMother />
+     <!-- <HomeMother /> -->
+     <HomeSister/>
     </div>
   </div>
 </template>
@@ -33,11 +34,12 @@
 
 // import DataTable from "@/components/DataTable.vue";
 // import AButton from "@/components/atoms/AButton.vue";
-import HomeMother from "@/components/HomeMother.vue"
+// import HomeMother from "@/components/HomeMother.vue"
+import HomeSister from "@/components/HomeSister.vue";
 
 
 export default {
   name: "HomeView",
-  components: {  HomeMother },
+  components: {  HomeSister },
 };
 </script>

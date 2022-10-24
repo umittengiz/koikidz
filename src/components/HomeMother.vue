@@ -1,9 +1,9 @@
 <template>
-  <div class="p-2 bg-green-200">
+  <div class="p-2 bg-blue-200">
     <!-- <BabySitterDetails /> -->
     <!-- <BabySitterCard /> -->
     <div class="grid grid-cols-6">
-      <div class="col-span-1 w-4/5 bg-green-200 rounded-2xl">
+      <div class="col-span-1 w-4/5 bg-blue-200 rounded-2xl">
         <AButton class="w-full text-white bg-orange-500 hover:bg-orange-400 rounded-full mb-2 mt-2" to="/babysitters"
           buttonText="Abla Çağır" />
         <AButton

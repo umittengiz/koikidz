@@ -287,7 +287,7 @@
           <input class="peer hidden" type="radio" name="shippingOption" id="next_day" />
 
           <label
-            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-100 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
+            class="flex cursor-pointer items-center justify-start rounded-lg border bg-white text-blue-900 border-amber-100 p-4 text-sm font-medium shadow-sm transition-colors hover:bg-amber-200 peer-checked:border-yellow-500 peer-checked:ring-4 peer-checked:ring-yellow-500"
             for="next_day">
             <span>Hayır evimde güvenlik kameram yok.</span>
           </label>
