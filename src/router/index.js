@@ -78,6 +78,14 @@ const routes = [
         /* webpackChunkName: "checkout-success" */ "../views/CheckoutSuccessView.vue"
       ),
   },
+  {
+    path: "/sister",
+    name: "sister",
+    component: () =>
+      import(
+        /* webpackChunkName: "checkout-success" */ "../views/HomeSisterView.vue"
+      ),
+  }
 ];
 
 const router = new VueRouter({
