@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-8 m-10">
-    <div class="grid col-span-2">
+    <div class="grid col-span-2 pr-10">
       <!--
   This component uses @tailwindcss/forms
 
@@ -9,34 +9,34 @@
 
   plugins: [require('@tailwindcss/forms')]
 -->
-<FilterBar />
+      <FilterBar />
 
 
     </div>
-    <div class="grid grid-cols-2 col-span-6 gap-6">
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    <BabySitterCard />
-    
+    <div class="grid grid-cols-3 col-span-6 gap-6">
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+      <BabySitterCard />
+
+    </div>
   </div>
-  </div>
-  
+
 </template>
 
 <script>
