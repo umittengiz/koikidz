@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white pb-10">
+    <div class="bg-gray-200 pb-10">
         <!-- Navigation starts -->
         <nav class="hidden w-full mx-auto bg-white shadow relative z-20">
             <div class="
@@ -692,7 +692,11 @@
         <!-- Page title ends -->
         <div class="container px-6 mx-auto">
             <!-- Remove class [ h-64 ] when adding a card block -->
-            <router-view />
+            <div
+                class="rounded shadow overflow-auto relative bg-white z-10  mb-8 w-full h-11/12 max-h-[62vh] md:max-h-[72vh] lg:max-h-[75vh]">
+                <!-- Place your content here -->
+                <router-view />
+            </div>
         </div>
     </div>
 </template>
