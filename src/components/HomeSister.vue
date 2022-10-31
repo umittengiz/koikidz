@@ -2,8 +2,8 @@
     <div class="p-2 bg-white">
       <!-- <BabySitterDetails /> -->
       <!-- <BabySitterCard /> -->
-      <div class="grid grid-cols-12">
-        <div class="col-span-2 w-3/4 bg-white rounded-2xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12">
+        <div class="col-span-2 w-full lg:w-3/4 bg-white rounded-2xl">
             <AButton
             class="w-full border-2 border-solid border-teal-500 text-gray-500 bg-teal-100 hover:bg-teal-200 rounded-full mb-2 mt-2"
             to="/" buttonText="Anneleri Gor" />
@@ -18,7 +18,7 @@
           
         </div>
         <div class="grid col-span-10">
-          <ActiveMother class="bg-white flex justify-center" />
+          <ActiveMother class="bg-white flex justify-start" />
         </div>
       </div>
   

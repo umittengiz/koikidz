@@ -2,8 +2,8 @@
   <div class="p-2 bg-blue-200">
     <!-- <BabySitterDetails /> -->
     <!-- <BabySitterCard /> -->
-    <div class="grid grid-cols-6">
-      <div class="col-span-1 w-4/5 bg-blue-200 rounded-2xl">
+    <div class="grid grid-cols-1 lg:grid-cols-12">
+      <div class="col-span-2 w-full lg:w-4/5 bg-blue-200 rounded-2xl">
         <AButton class="w-full text-white bg-orange-500 hover:bg-orange-400 rounded-full mb-2 mt-2" to="/babysitters"
           buttonText="Abla Çağır" />
         <AButton
@@ -19,8 +19,8 @@
           class="w-full border-2 border-solid border-pink-500 text-pink-600 bg-pink-100 hover:bg-pink-200 rounded-full mb-2 mt-2"
           to="/" buttonText="Cüzdan" />
       </div>
-      <div class="grid col-span-5">
-        <DataTable class="bg-white flex justify-center" />
+      <div class="grid col-span-10">
+        <DataTable class="bg-white flex justify-start" />
       </div>
     </div>
 
